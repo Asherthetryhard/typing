@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+#game-container {
+  text-align: center;
+}
+
+#game-screen {
+  display: block;
+}
+
+#menu-screen {
+  display: block;
+}
+
+#sentence {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#input-field {
+  padding: 10px;
+  font-size: 18px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+#exit-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#exit-btn:hover {
+  background-color: darkred;
+}
